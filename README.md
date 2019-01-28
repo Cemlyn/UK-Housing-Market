@@ -7,7 +7,9 @@ Data has been sourced from the ONS "price paid" dataset which lists the price pa
 ![alt text](https://github.com/Cemlyn/UK-Housing-Market/blob/master/Median_price_smth.png)
 
 Using Agglomerative clustering and defining the number of clusters to be k=10 the resulting geographic clusters are produced:
+
 ![alt text](https://github.com/Cemlyn/UK-Housing-Market/blob/master/Median_Clust_10.png)
 
 Obviously results shown here would likely not be palatable to anyone trying to build an house price index. By including an "Adjacency matrix" which details whether or not two postcode district are adjacent to each, the geographic stucture of the UK can be considered during the clustering process. This results in much improved plot below:
+
 ![alt text](https://github.com/Cemlyn/UK-Housing-Market/blob/master/Agg_clust_10.png)
